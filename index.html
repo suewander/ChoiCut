@@ -148,11 +148,6 @@
         }
         }
 
-        // 클릭 기능
-        // 1. 선택된 사진의 숫자를 가진 텍스트를 alert 형태로 출력해줌
-        function alertText(number) {
-	        alert(`${number}번째 추억이에요! 눌러주셔서 감사합니다 :)`);
-        }
     </script>
 </head>
 <body>
@@ -161,7 +156,6 @@
             <div id="image1" class="photo-frame"
                 onmouseover="hideText(1)"
                 onmouseout="showText(1)"
-                onclick="alertText(1)"
             >
                 <span id="desc1" class="photo_description">
                     일라바요
@@ -170,7 +164,6 @@
             <div id="image2" class="photo-frame"
                 onmouseover="hideText(2)"
                 onmouseout="showText(2)"
-                onclick="alertText(2)"
             >
                 <span id="desc2" class="photo_description">
                     좋아하고
@@ -179,7 +172,6 @@
             <div id="image3" class="photo-frame"
                 onmouseover="hideText(3)"
                 onmouseout="showText(3)"
-                onclick="alertText(3)"
             >
                 <span id="desc3" class="photo_description">
                     사랑해
@@ -188,7 +180,6 @@
             <div id="image4" class="photo-frame"
                 onmouseover="hideText(4)"
                 onmouseout="showText(4)"
-                onclick="alertText(4)"
             >
                 <span id="desc4" class="photo_description">
                     ❤
